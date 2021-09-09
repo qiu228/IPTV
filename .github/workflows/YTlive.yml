@@ -191,6 +191,24 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.youtube.com/watch?v=T8dcZHk4xWs)
         EOL
+    - name: Get huya.m3u8
+      run: |
+        touch ./huya.m3u8
+        sudo cat >./huya.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://youtu.be/6sZpZPI6GoU?list=UU9-9uhNfC6CdaUVZhTc71xw)
+        EOL
+    - name: Get KPOP.m3u8
+      run: |
+        touch ./KPOP.m3u8
+        sudo cat >./KPOP.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://youtu.be/Rp09qxc83dw?list=UUc0vTneNBcwYEri1ummWvbg)
+        EOL
     - name: Get SDTV.m3u8
       run: |
         touch ./SDTV.m3u8
