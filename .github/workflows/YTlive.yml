@@ -81,7 +81,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -ghttps://www.youtube.com/channel/UC2TuODJhC03pLgd6MpWP0iw/live)
+        $(youtube-dl -g https://www.youtube.com/channel/UC2TuODJhC03pLgd6MpWP0iw/live)
         EOL
     - name: Get hyxw.m3u8
       run: |
