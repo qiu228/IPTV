@@ -218,68 +218,14 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.youtube.com/channel/UCrVBXIxpYnjTk4ezn9F-fug/live)
         EOL
-    - name: Get ELTA1.m3u8
+    - name: Get ELTA.m3u8
       run: |
-        touch ./ELTA1.m3u8
-        sudo cat >./ELTA1.m3u8 <<EOL
+        touch ./ELTA.m3u8
+        sudo cat >./ELTA.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=dSVfAfRvG0g)
-        EOL
-    - name: Get ELTA2.m3u8
-      run: |
-        touch ./ELTA2.m3u8
-        sudo cat >./ELTA2.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=iPrGByclQyQ)
-        EOL
-    - name: Get ELTA3.m3u8
-      run: |
-        touch ./ELTA3.m3u8
-        sudo cat >./ELTA3.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=Oz7-uQ_P8fY)
-        EOL
-    - name: Get ELTA4.m3u8
-      run: |
-        touch ./ELTA4.m3u8
-        sudo cat >./ELTA4.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=RXAkUjt0bjg )
-        EOL
-    - name: Get ELTA5.m3u8
-      run: |
-        touch ./ELTA5.m3u8
-        sudo cat >./ELTA5.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=-p6Xg_GzrcI)
-        EOL
-    - name: Get ELTA6.m3u8
-      run: |
-        touch ./ELTA6.m3u8
-        sudo cat >./ELTA6.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=MDZVtt8E4_M)
-        EOL
-    - name: Get ELTA7.m3u8
-      run: |
-        touch ./ELTA7.m3u8
-        sudo cat >./ELTA7.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=sQJreUtvSgI)
+        $(youtube-dl -g https://www.youtube.com/channel/UC1OmzW062Tci8eDdjrX-OHg/live)
         EOL
     - name: Get ANN.m3u8
       run: |
