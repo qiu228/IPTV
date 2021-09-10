@@ -191,14 +191,14 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.youtube.com/watch?v=T8dcZHk4xWs)
         EOL
-    - name: Get huya.m3u8
+    - name: Get CPOP.m3u8
       run: |
-        touch ./huya.m3u8
-        sudo cat >./huya.m3u8 <<EOL
+        touch ./CPOP.m3u8
+        sudo cat >./CPOP.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://youtu.be/6sZpZPI6GoU?list=UU9-9uhNfC6CdaUVZhTc71xw)
+        $(youtube-dl -g https://www.youtube.com/channel/UCcHWhgSsMBemnyLhg6GL1vA/live )
         EOL
     - name: Get KPOP.m3u8
       run: |
@@ -207,7 +207,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://youtu.be/Rp09qxc83dw?list=UUc0vTneNBcwYEri1ummWvbg)
+        $(youtube-dl -g https://www.youtube.com/channel/UCoRXPcv8XK5fAplLbk9PTww/live)
         EOL
     - name: Get SDTV.m3u8
       run: |
@@ -218,14 +218,14 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.youtube.com/channel/UCrVBXIxpYnjTk4ezn9F-fug/live)
         EOL
-    - name: Get SDTV1.m3u8
+    - name: Get ANN.m3u8
       run: |
-        touch ./SDTV1.m3u8
-        sudo cat >./SDTV1.m3u8 <<EOL
+        touch ./ANN.m3u8
+        sudo cat >./ANN.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/channel/UCHycXkewR3NXQE59t3hhlaQ/live)
+        $(youtube-dl -g https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ/live)
         EOL
     - name: Get Arirang.m3u8
       run: |
@@ -234,7 +234,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=52unCHc6AV4)
+        $(youtube-dl -g https://www.youtube.com/channel/UC-PHIZjV-oX8H7zD1cCN2NQ/live)
         EOL
     - name: Get DW.m3u8
       run: |
@@ -243,7 +243,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=4tbh25K-vO8)
+        $(youtube-dl -g https://www.youtube.com/channel/UCknLrEdhRCp1aegoMqRaCZg/live)
         EOL
     - name: Get euronews.m3u8
       run: |
@@ -252,7 +252,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g --proxy socks4://114.34.115.110:5678/ https://www.youtube.com/watch?v=sPgqEHsONK8)
+        $(youtube-dl -g --proxy socks4://114.34.115.110:5678/ https://www.youtube.com/channel/UCSrZ3UV4jOidv8ppoVuvW9Q/live)
         EOL
     - name: Get france24.m3u8
       run: |
@@ -261,7 +261,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=aHh8rA0hks8)
+        $(youtube-dl -g https://www.youtube.com/channel/UCQfwfsi5VrQ8yKZ-UWmAEFg/live)
         EOL
     - name: Get aljazeera.m3u8
       run: |
@@ -270,7 +270,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=-upyPouRrB8)
+        $(youtube-dl -g https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg/live)
         EOL
     - name: Get abcau.m3u8
       run: |
@@ -279,7 +279,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=W1ilCy6XrmI)
+        $(youtube-dl -g https://www.youtube.com/channel/UCVgO39Bk5sMo66-6o6Spn6Q/live)
         EOL
     - name: Get abcus.m3u8
       run: |
@@ -288,7 +288,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=w_Ma8oQLmSM)
+        $(youtube-dl -g https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q/live)
         EOL
     - name: Get africanews.m3u8
       run: |
@@ -297,7 +297,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=NQjabLGdP5g)
+        $(youtube-dl -g https://www.youtube.com/channel/UC1_E8NeF5QHY2dtdLRBCCLA/live)
         EOL
     - name : Upload artifact
       uses: actions/upload-artifact@master
