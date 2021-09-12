@@ -254,14 +254,59 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.youtube.com/channel/UCrVBXIxpYnjTk4ezn9F-fug/live)
         EOL
-    - name: Get SINDATV.m3u8
+    - name: Get sindatv.m3u8
       run: |
-        touch ./SINDATV.m3u8
-        sudo cat >./SINDATV.m3u8 <<EOL
+        touch ./sindatv.m3u8
+        sudo cat >./sindatv.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.youtube.com/channel/UCZNrgK7RjNPbVsqYpM9utJw/live)
+        EOL
+    - name: Get sjtv.m3u8
+      run: |
+        touch ./sjtv.m3u8
+        sudo cat >./sjtv.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/channel/UC8URZ5vhlSU_Z0uWCglzGTA/live)
+        EOL
+    - name: Get tltv.m3u8
+      run: |
+        touch ./tltv.m3u8
+        sudo cat >./tltv.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/channel/UCVDgvpdyy8VbpsiXjc-kdGQ/live)
+        EOL
+    - name: Get chengsintv.m3u8
+      run: |
+        touch ./chengsintv.m3u8
+        sudo cat >./chengsintv.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/channel/UCRvNvZZH79MpSRubnW9pdcw/live)
+        EOL
+    - name: Get TACT.m3u8
+      run: |
+        touch ./TACT.m3u8
+        sudo cat >./TACT.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/channel/UCKJzQkbIqMrwxnuDw5KjWgA/live)
+        EOL
+    - name: Get TWINS.m3u8
+      run: |
+        touch ./TWINS.m3u8
+        sudo cat >./TWINS.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/channel/UCQfvCanh2P162zq_HZVHlEg/live)
         EOL
     - name: Get ANNnews.m3u8
       run: |
