@@ -326,6 +326,69 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.youtube.com/channel/UCUMZ7gohGI9HcU9VNsr2FJQ/live)
         EOL
+    - name: Get DW.m3u8
+      run: |
+        touch ./DW.m3u8
+        sudo cat >./DW.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/channel/UCknLrEdhRCp1aegoMqRaCZg/live)
+        EOL
+    - name: Get france24.m3u8
+      run: |
+        touch ./france24.m3u8
+        sudo cat >./france24.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/c/FRANCE24English/live)
+        EOL
+    - name: Get aljazeera.m3u8
+      run: |
+        touch ./aljazeera.m3u8
+        sudo cat >./aljazeera.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg/live)
+        EOL
+    - name: Get TRTworld.m3u8
+      run: |
+        touch ./TRTworld.m3u8
+        sudo cat >./TRTworld.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/c/trtworld/live)
+        EOL
+    - name: Get RTuknews.m3u8
+      run: |
+        touch ./RTuknews.m3u8
+        sudo cat >./RTuknews.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/user/RTUKnews/live)
+        EOL
+    - name: Get RTnews.m3u8
+      run: |
+        touch ./RTnews.m3u8
+        sudo cat >./RTnews.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/user/RussiaToday/live)
+        EOL
+    - name: Get NBCnews.m3u8
+      run: |
+        touch ./NBCnews.m3u8
+        sudo cat >./NBCnews.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/c/NBCNews/live)
+        EOL
     - name : Upload artifact
       uses: actions/upload-artifact@master
       with:
