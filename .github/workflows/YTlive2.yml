@@ -221,16 +221,16 @@ jobs:
     - name : Upload artifact
       uses: actions/upload-artifact@master
       with:
-        name: YTlive m3u8
+        name: YTlive2 m3u8
         path: .
-    - name: Git push assets to "YTlive" branch
+    - name: Git push assets to "YTlive2" branch
       run: |
         git init
         git config --local user.name "actions"
         git config --local user.email "action@github.com"
-        git checkout -b YTlive
+        git checkout -b YTlive2
         git add .
-        git commit -m "Update YTlive"
+        git commit -m "Update YTlive2"
         git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-        git push -f -u origin YTlive
+        git push -f -u origin YTlive2
    
