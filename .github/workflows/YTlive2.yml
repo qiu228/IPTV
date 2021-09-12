@@ -90,7 +90,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/channel/UC5O114-PQNYkurlTg6hekZw/live)
+        $(youtube-dl -g https://www.youtube.com/c/unitednations/live)
         EOL
     - name: Get TRTworld.m3u8
       run: |
@@ -99,7 +99,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/channel/UC7fWeaHhqgM4Ry-RMpM2YYw/live)
+        $(youtube-dl -g https://www.youtube.com/c/trtworld/live)
         EOL
     - name: Get RTuknews.m3u8
       run: |
@@ -126,7 +126,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg/live)
+        $(youtube-dl -g https://www.youtube.com/c/NBCNews/live)
         EOL
     - name: Get Bloomberg.m3u8
       run: |
@@ -144,7 +144,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/channel/UChlgI3UHCOnwUGzWzbJ3H5w/live)
+        $(youtube-dl -g https://www.youtube.com/user/ytnnews24/live)
         EOL
     - name: Get Hokkaido.m3u8
       run: |
@@ -153,7 +153,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/channel/UCSWOnDD1KIriGmyQ7SgNA4A/live)
+        $(youtube-dl -g https://www.youtube.com/user/HTBNEWS/live)
         EOL
     - name: Get Nasalive.m3u8
       run: |
@@ -162,7 +162,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ/live)
+        $(youtube-dl -g https://www.youtube.com/c/NASA/live)
         EOL
     - name: Get nasaearthview.m3u8
       run: |
@@ -189,7 +189,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/channel/UCVgO39Bk5sMo66-6o6Spn6Q/live)
+        $(youtube-dl -g https://www.youtube.com/c/NewsOnABC/live)
         EOL
     - name: Get abcus.m3u8
       run: |
@@ -198,7 +198,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q/live)
+        $(youtube-dl -g https://www.youtube.com/c/ABCNews/live)
         EOL
     - name: Get africanews.m3u8
       run: |
@@ -207,7 +207,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/channel/UC1_E8NeF5QHY2dtdLRBCCLA/live)
+        $(youtube-dl -g https://www.youtube.com/c/africanews/live)
         EOL
     - name: Get abcsing.m3u8
       run: |
