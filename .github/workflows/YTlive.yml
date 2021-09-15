@@ -320,7 +320,7 @@ jobs:
     - name: Get tsimtv .m3u8
       run: |
         touch ./tsimtv.m3u8
-        sudo cat >.tsimtv/.m3u8 <<EOL
+        sudo cat >./tsimtv.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
