@@ -281,6 +281,15 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.youtube.com/channel/UCcHWhgSsMBemnyLhg6GL1vA/live)
         EOL
+    - name: Get kiss20.m3u8
+      run: |
+        touch ./kiss20.m3u8
+        sudo cat >./kiss20.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/channel/UCVyng4eaDRF7AaT4Ub3E1JA/live)
+        EOL
     - name: Get KPOP.m3u8
       run: |
         touch ./KPOP.m3u8
