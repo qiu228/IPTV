@@ -497,15 +497,6 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.youtube.com/c/FRANCE24English/live)
         EOL
-    - name: Get skynews.m3u8
-      run: |
-        touch ./skynews.m3u8
-        sudo cat >./skynews.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
-        $(youtube-dl -g https://www.youtube.com/watch?v=9Auq9mYxFEE)
-        EOL
     - name: Get aljazeera.m3u8
       run: |
         touch ./aljazeera.m3u8
