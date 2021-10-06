@@ -236,6 +236,33 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.youtube.com/c/TBSCTSSHOW/live)
         EOL
+    - name: Get ftvdramas1.m3u8
+      run: |
+        touch ./ftvdramas1.m3u8
+        sudo cat >./ftvdramas1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/watch?v=-l18QppNSN0)
+        EOL
+    - name: Get ftvdramas2.m3u8
+      run: |
+        touch ./ftvdramas2.m3u8
+        sudo cat >./ftvdramas2.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/watch?v=hlZ3Mz_OQBc)
+        EOL
+    - name: Get ftvdramas3.m3u8
+      run: |
+        touch ./ftvdramas3.m3u8
+        sudo cat >./ftvdramas3.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/watch?v=C196ZR2Jz70)
+        EOL
     - name: Get Duoliang.m3u8
       run: |
         touch ./Duoliang.m3u8
@@ -253,6 +280,15 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.youtube.com/channel/UCcHWhgSsMBemnyLhg6GL1vA/live)
+        EOL
+    - name: Get kiss20.m3u8
+      run: |
+        touch ./kiss20.m3u8
+        sudo cat >./kiss20.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.youtube.com/channel/UCVyng4eaDRF7AaT4Ub3E1JA/live)
         EOL
     - name: Get KPOP.m3u8
       run: |
