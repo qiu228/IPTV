@@ -117,7 +117,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=V0WxUakDV7M)
+        $(youtube-dl -g https://www.youtube.com/channel/UC5nwNW4KdC0SzrhF9BXEYOQ/live)
         EOL
     - name: Get tvbs56.m3u8
       run: |
@@ -171,7 +171,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=oV_i3Hsl_zg)
+        $(youtube-dl -g https://www.youtube.com/watch?v=oV_i3Hsl_zg/live)
         EOL
     - name: Get daai2.m3u8
       run: |
@@ -180,7 +180,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=DTNkEm6jaqQ)
+        $(youtube-dl -g https://www.youtube.com/watch?v=DTNkEm6jaqQ/live)
         EOL
     - name: Get daai3.m3u8
       run: |
@@ -189,7 +189,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=MIqUplvSRWA)
+        $(youtube-dl -g https://www.youtube.com/watch?v=MIqUplvSRWA/live)
         EOL
     - name: Get parliamentarytv1.m3u8
       run: |
@@ -198,7 +198,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=jRsyBLhot6E)
+        $(youtube-dl -g https://www.youtube.com/watch?v=jRsyBLhot6E/live)
         EOL
     - name: Get parliamentarytv2.m3u8
       run: |
@@ -207,7 +207,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=RAP4h3q6_Sg)
+        $(youtube-dl -g https://www.youtube.com/watch?v=RAP4h3q6_Sg/live)
         EOL
     - name: Get eftv.m3u8
       run: |
@@ -243,7 +243,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=-l18QppNSN0)
+        $(youtube-dl -g https://www.youtube.com/watch?v=-l18QppNSN0/live)
         EOL
     - name: Get ftvdramas2.m3u8
       run: |
@@ -252,7 +252,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=hlZ3Mz_OQBc)
+        $(youtube-dl -g https://www.youtube.com/watch?v=CD8o5GUDmgI/live)
         EOL
     - name: Get ftvdramas3.m3u8
       run: |
@@ -261,7 +261,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=C196ZR2Jz70)
+        $(youtube-dl -g https://www.youtube.com/watch?v=C196ZR2Jz70/live)
         EOL
     - name: Get Duoliang.m3u8
       run: |
@@ -270,7 +270,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/channel/UCT4jEYvUdpdN9oUALaypGfQ/live)
+        $(youtube-dl -g https://www.youtube.com/watch?v=UCG1aXVO8H8/live)
         EOL
     - name: Get CPOP.m3u8
       run: |
@@ -423,7 +423,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=coYw-eVU0Ks)
+        $(youtube-dl -g https://www.youtube.com/watch?v=coYw-eVU0Ks/live)
         EOL
     - name: Get Hokkaido.m3u8
       run: |
